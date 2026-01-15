@@ -8,6 +8,7 @@ course slides and python hands-on examples.
 Python packages to install to get the examples running (prefer miniconda/anaconda)
 
 ```
-conda create -n pyg_cpu -c spyder cma matplotlib numpy scipy pytorch
-conda activate pyg_cpu
+conda create -n ad_course -c cma matplotlib numpy scipy pytorch
+conda activate ad_course
+pip install spyder
 ```
