@@ -8,8 +8,7 @@ course slides and python hands-on examples.
 Python packages to install to get the examples running (prefer miniconda/anaconda)
 
 ```
-conda create -n pyg_cpu -c pytorch pytorch_geometric pytorch cpuonly
+conda create -n pyg_cpu -c spyder cma matplotlib numpy scipy pytorch cpuonly
 conda activate pyg_cpu
-conda install cma matplotlib numpy scipy
+conda install 
 ```
-
